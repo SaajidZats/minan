@@ -29,21 +29,14 @@
 <body class="bg-gray-50">
 
     <!-- Navbar -->
-    <nav class="bg-gray-800 text-white shadow-md sticky top-0 z-50">
-        <div class="container mx-auto px-4">
-            <div class="flex justify-between items-center py-4">
-                <a href="#" class="text-xl font-bold flex items-center">
-                    <!-- You can replace this with your actual logo image -->
-                    <img src="images/logo.png" alt="Logo" width="40">
-                    Minan Ahadhiyya
-                </a>
-                <!-- Mobile Menu Button -->
-                <button id="mobile-menu-button" class="md:hidden">
-                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
-                </button>
-                <!-- Desktop Menu -->
-                <div class="hidden md:flex items-center space-x-1">
-                   <ul class="navbar-nav ms-auto">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Logo" width="40"> Minan Ahadhiyya</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
         <li class="nav-item"><a class="nav-link" href="Syllabus.html">Syllabus</a></li>
@@ -52,20 +45,9 @@
         <li class="nav-item"><a class="nav-link" href="articles.html">Articles</a></li>
         <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
       </ul>
-                </div>
-            </div>
-        </div>
-        <!-- Mobile Menu -->
-        <div id="mobile-menu" class="hidden md:hidden">
-            <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-700">Home</a>
-            <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-700">About</a>
-            <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-700">Syllabus</a>
-            <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-700">Events</a>
-            <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-700">Downloads</a>
-            <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-700">Articles</a>
-            <a href="#" class="block py-2 px-4 text-sm bg-blue-600 font-semibold">Contact</a>
-        </div>
-    </nav>
+    </div>
+  </div>
+</nav>
 
     <div class="container mx-auto px-4 py-12 sm:px-6 lg:px-8">
         <div class="max-w-6xl mx-auto">
