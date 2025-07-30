@@ -2,32 +2,35 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Madrasathul Minan Ahadhiyya School – An Islamic education institute in Colombo 09, offering Quran, History, Fiqh, and Ethics classes in English, Sinhala, and Tamil.">
-  <meta name="keywords" content="Minan Ahadhiyya, Ahadhiyya Colombo, Islamic school Sri Lanka, Dematagoda Madrasah">
-  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-
-
-  <title>About Us</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Us - Minan Ahadhiyya</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-    .hero {
-      background-color: #f8f9fa;
-      padding: 50px 0;
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    .section-title {
+      border-left: 5px solid #0d6efd;
+      padding-left: 15px;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+    .team-member {
+      transition: transform 0.3s, box-shadow 0.3s;
+      border-radius: 10px;
+    }
+    .team-member:hover {
+      transform: scale(1.03);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+    }
+    .team-member img {
+      height: 220px;
+      object-fit: cover;
+      border-radius: 10px 10px 0 0;
+    }
+    .team-member .card-body {
       text-align: center;
     }
-    .section-title {
-      border-bottom: 2px solid #0d6efd;
-      display: inline-block;
-      margin-bottom: 20px;
-    }
-    footer {
-      background-color: #212529;
-      color: white;
-      padding: 20px 0;
-    }
-    .nav-link.active {
-      font-weight: bold;
+    .bg-lightblue {
+      background-color: #f0f8ff;
     }
   </style>
 </head>
@@ -43,7 +46,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link active" href="about.html">About</a></li>
         <li class="nav-item"><a class="nav-link" href="Syllabus.html">Syllabus</a></li>
         <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
         <li class="nav-item"><a class="nav-link" href="downloads.html">Downloads</a></li>
@@ -54,19 +57,89 @@
   </div>
 </nav>
 
-
-<!-- About -->
-<section id="about" class="py-5">
+<!-- History Section -->
+<section class="py-5">
   <div class="container">
-    <h2 class="section-title">About Us</h2>
-    <p>Minan Ahadhiyya School has been inspiring young hearts with the light of Deen since the early 1980s. Founded through heartfelt discussions among respected community leaders—late Mawsook Haji, Haji Jiffry Buhard, and Muhyiddeen Mosque’s administration—the school was created to uplift the Islamic knowledge of Muslim children in Dematagoda.</p>
-    <p>From a small group of 20–30 students led by Ustad Siddique Alim, the school has grown into a respected institution. Officially registered in 2008 as the 103rd Ahadhiyya in Sri Lanka, Minan has long been a pillar of faith and education.</p>
+    <h2 class="section-title">Our History</h2>
+    <p>
+      Madrasathul Minan Ahadhiyya was established over three decades ago with the goal of strengthening Islamic education in the Dematagoda region. Initiated by respected elders and mosque leaders, it evolved into a dedicated Sunday religious institution offering structured learning from Grade 6 to 11.
+    </p>
   </div>
 </section>
 
+<!-- Current Situation -->
+<section class="py-5 bg-lightblue">
+  <div class="container">
+    <h2 class="section-title">Current Situation</h2>
+    <p>
+      Our Ahadhiyya functions actively with a weekly schedule, dedicated teachers, and a progressive syllabus. Every Sunday, over a hundred students benefit from quality Islamic education, character development, and spiritual guidance.
+    </p>
+    <p><strong>Teachers:</strong> <i class="bi bi-person-fill"></i> 8 Male &nbsp; | &nbsp; <i class="bi bi-person-fill"></i> 11 Female</p>
+  </div>
+</section>
+
+<!-- Management Body -->
+<section class="py-5">
+  <div class="container">
+    <h2 class="section-title">Our Management Body</h2>
+    <div class="row g-4">
+
+      <div class="col-md-3">
+        <div class="card team-member shadow-sm">
+          <img src="images/principal.jpg" class="card-img-top" alt="Principal">
+          <div class="card-body">
+            <h5 class="card-title">Mou. M. Irshard Zavahir</h5>
+            <p class="card-text text-muted"><i class="bi bi-mortarboard"></i> Principal (Baari)</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card team-member shadow-sm">
+          <img src="images/viceprincipal.jpg" class="card-img-top" alt="Vice Principal">
+          <div class="card-body">
+            <h5 class="card-title">Mou. M. Fahmi Sadhadh</h5>
+            <p class="card-text text-muted"><i class="bi bi-person-badge"></i> Vice Principal (Al Jaami)</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card team-member shadow-sm">
+          <img src="images/secretary.jpg" class="card-img-top" alt="Secretary">
+          <div class="card-body">
+            <h5 class="card-title">M. Saajid Shibly</h5>
+            <p class="card-text text-muted"><i class="bi bi-file-earmark-text"></i> Secretary</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card team-member shadow-sm">
+          <img src="images/treasurer.jpg" class="card-img-top" alt="Treasurer">
+          <div class="card-body">
+            <h5 class="card-title">M. Fiyaz Azardeen</h5>
+            <p class="card-text text-muted"><i class="bi bi-cash-coin"></i> Treasurer</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Future Vision -->
+<section class="py-5 bg-light">
+  <div class="container">
+    <h2 class="section-title">Our Future Vision</h2>
+    <p>
+      We envision expanding our facilities, introducing digital learning, organizing community engagement projects, and further enhancing the curriculum. We aim to produce not just knowledgeable students but morally upright individuals who serve the Ummah and country.
+    </p>
+  </div>
+</section>
 
 <!-- Footer -->
-<footer class="text-center">
+<footer class="text-center bg-dark text-white py-3">
   <div class="container">
     <p>&copy; 2025 Madrasathul Minan Ahadhiyya School. All Rights Reserved.</p>
   </div>
